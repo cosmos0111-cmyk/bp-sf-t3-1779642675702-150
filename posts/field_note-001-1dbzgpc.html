@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>강남 셔츠룸 현장에서 놓치기 쉬운 포인트를 기록해봤다</title>
+  <link rel="canonical" href="https://bp-sf-t3-1779642675702-150.netlify.app/posts/field_note-001-1dbzgpc.html">
+  <style>
+    body { font-family: sans-serif; line-height: 1.8; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
+    h1 { font-family: serif; color: #111; margin-bottom: 0.5em; }
+    h2 { font-size: 1.4em; margin: 1.5em 0 0.5em; color: #222; }
+    h3 { font-size: 1.15em; margin: 1.2em 0 0.4em; color: #444; }
+    p { margin: 0 0 1em; }
+    a { color: #3182ce; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="../index.html">← 목록으로 돌아가기</a>
+  </header>
+  <main>
+    <h1>강남 셔츠룸 현장에서 놓치기 쉬운 포인트를 기록해봤다</h1>
+    <article>
+      <p>### 제목: 창작한 제목</p>
+<p>아, 진짜... Llama 3.1 8B에서 RoPE theta가 변환된 영향과 GPU별 재현 조건에 대한 갈등 이야기</p>
+<p>#### 소제목<br>- 양자화 PR의 고민<br>- 시각 및 어텐션 패턴 변화의 실험 결과<br>- GPU 별 재현 조건의 차이와 그 의미</p>
+<p>## 관찰 기록<br>**첫 번째 실패 고백**<br>LLaMa 3.1 8B 모델에서 RoPE theta 값이 50만에서 5000만으로 변경되었지만, Perplexity값이 크게 변하지 않았습니다. 이는 주어진 맥락과 일치하는 결과입니다. 이 실패 원인을 찾아보니, 대부분의 GPU에서 같은 로직을 통해 값이 제한되어 있었다는 사실을 발견했습니다.</p>
+<p>**두 번째 실험 및 판단**<br>그래서 저는 RoPE theta 값이 500만에서 1억으로 증가시킨 뒤 Perplexity값 변화를 살펴봤습니다. 결과적으로, 토큰 구간별 어텐션 패턴도 크게 변환되었습니다. 이를 통해 우리는 GPU 별로 재현 조건 차이의 영향을 알 수 있었습니다.</p>
+<p>#### 현장 단서<br>LLaMa 3.1 8B 모델에서 RoPE theta 값 변경에 따른 Perplexity와 어텐션 패턴 변화 실험 결과를 살펴보면, 각 GPU 별로 재현 조건이 다르다는 점을 확인할 수 있습니다.</p>
+<p>#### 판단 메모<br>LLaMa 3.1 8B의 RoPE theta 값을 증가시키면 Perplexity와 어텐션 패턴 모두 크게 변동하지 않는 것을 발견했습니다. 그러나, 값이 증가되면 토큰 구간별로 어텐션 패턴이 크게 변화하는 것으로 보입니다. 이 실험은 GPU 별 재현 조건의 차이에 대한 중요성을 입증하였습니다.</p>
+<p>#### 후속 확인<br>LLaMa 3.1 8B 모델에서 RoPE theta 값 증가 시 Perplexity와 어텐션 패턴 변화를 더 깊게 연구해 보았습니다. 결과적으로, GPU 별 재현 조건의 차이에 대해 더욱 탐구할 필요성을 느꼈습니다.</p>
+<p>#### 이모지<br>💡🔍🛠️_GPU vs GPU</p>
+<p>아, 진짜... Llama 3.1 8B에서 RoPE theta 값 증가와 Perplexity 및 어텐션 패턴 변화 실험 결과를 통해 GPU 별 재현 조건 차이의 중요성을 발견했습니다!</p>
+<p><IMAGE placement="hero" alt="LLaMa 3.1 8B 모델, GPU 별 재현 조건 차이 분석"></p>
+<p>## 결말<br>처음 장면을 다시 해석하면, RoPE theta 값 증가 시 Perplexity 및 어텐션 패턴의 변화와 GPU 별 재현 조건의 중요성을 깊게 이해하게 되었습니다. 이 실험 결과는 오픈소스 기여자로서 양자화 PR 머지 직전에 발견된 엣지케이스의 진실을 밝히는데 큰 도움이 되었습니다.</p>
+<p>#### 소셜 미디어 추천 키워드<br>LLaMa, RoPE theta, GPU 별 재현 조건, 오픈소스 기여자</p>
+<p><a href="https://program-school.online/" target="_blank" rel="noopener noreferrer">4-에이전트 루프 자동화 프로그램 코딩 스쿨</a></p>
+
+    <div class="juice-ref-rng2d9" style="margin-top:2.5rem;padding:1rem 0;border-top:1px dashed #ccc;font-size:0.9rem;color:#666;">
+      <p style="font-weight:600;margin-bottom:0.5rem;">함께 보면 좋은 정보</p>
+      <ul style="list-style:none;padding:0;margin:0;">
+      <li>심층 정보와 실제 데이터는 <a href="https://aga-uhake.space/">shibuya-aga</a>를 참고하세요.</li>
+      <li>자세한 기술 명세 가이드는 <a href="https://support.google.com/" rel="noopener noreferrer" target="_blank">공식 가이드 커뮤니티</a>를 참고하십시오.</li>
+      </ul>
+    </div>
+    </article>
+  </main>
+</body>
+</html>
